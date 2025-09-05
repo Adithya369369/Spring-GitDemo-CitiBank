@@ -1,0 +1,19 @@
+package FirstSpringProject.Spring.Model;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.Data;
+@Data
+@Entity
+public class QuestionModel {
+    @Id
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    private String question_Title;
+    private String option1;
+    private String option2;
+    private String option3;
+    private String option4;
+    private String right_Answer;
+    private String difficult_Level;
+    private String category;
+}
