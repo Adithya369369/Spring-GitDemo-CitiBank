@@ -10,5 +10,6 @@ public class Application {
 		SpringApplication.run(Application.class, args);
         System.out.println("Hello");
         System.out.println("Hello");
+        System.out.println("Hello");
 	}
 }
