@@ -28,6 +28,5 @@ public class QuestionService {
             questionRepo.save(questionModel);
             return "success";
         }
-
     }
 
